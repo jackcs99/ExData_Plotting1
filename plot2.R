@@ -12,5 +12,5 @@ subX <- x[z,]
 subY <- y[z]
 
 png("plot2.png")
-plot(subY,as.numeric(as.character(subX$Global_a)),type="l",ylab="Global Active Power (kiloWatts)",xlab="")
+plot(subY,as.numeric(as.character(subX$Global_a)),type="l",ylab="Global Active Power (kilowatts)",xlab="")
 dev.off()
